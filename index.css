@@ -1,0 +1,78 @@
+@font-face {
+    font-family: custom;
+    src: url(/Font/customfont.ttf);
+}
+
+body {
+    width: 575px;
+    height: 385px;
+    background-image:url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnA2NXAxMTZxZzV2ZGJzamloNWp6NnJjYWVpZTB3ODYya3owaDhvOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cvyz3Hw4d7EIw/giphy.gif");//#1B244A
+    background-position: center;
+    background-cover: cernter;
+    background-size: 1280px;               
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana;
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 40px;
+    height: 167px;
+    width: 100px;
+    margin: 30px 80px;
+
+}
+
+.number {
+    border: 10px solid #080001;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 155px;
+    height: 120px;
+    margin: 0px 100px 20px 0px;
+    background-color: #080001;
+    font-family: custom;
+    font-weight: 400;
+    font-size: 90px;
+    color: #F94F6D;
+    
+}
+
+.home {
+    margin-left: 8px;
+    margin-bottom: 21px;
+}
+
+.button {
+    background-color: #1B244A;
+    font-family: custom;
+    font-weight: 400;
+    font-size: 18px;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 9px 8px;
+    margin-left: 5px;
+}
+
+.resett {
+    margin-top: 30px;
+    padding: 5px;
+    border: 2.5px solid #6a040f;
+    border-radius: 10px;
+    width: 150px;
+    margin-left: 12px;
+    color: #F94F6D;
+    background-color: #080001;
+    font-family: Verdana;
+    font-weight: bold;
+    
+}
